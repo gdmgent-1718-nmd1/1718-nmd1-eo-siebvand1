@@ -1,19 +1,9 @@
-@font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-ThinItalic-webfont.eot');
-    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Roboto-ThinItalic-webfont.woff') format('woff'),
-         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
-         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); (under the Apache Software License). 
-    font-weight: 200;
-    font-style: italic;
-}
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robotoe, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
-    -moz-font-feature-settings: 'kern';
+    -moz-font-feature-settings: 'kern' ;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #333;
@@ -28,9 +18,54 @@ img {
 /* Voeg jouw css hieraan toe */
 
 body{
-    background-color: hsla(226, 65%, 62%, 1);
-    
+    background-color: rgba(95, 124, 221, 0.26);   
 }
-.info{
 
+/* intro */
+
+
+
+/* concurentie */
+.titel{
+    padding-top: 10%;
+}
+
+.picture{
+    padding-top:18%; 
+}
+
+.picture1{
+    padding-top:5%; 
+}
+
+.container{
+    width: 70%;
+    position: absolute;
+    left: 15%;
+}
+
+.minpunten{
+    width: 40%;
+    float: right;
+   
+}
+
+.pluspunten{
+    width: 40%;
+    float: left;
+    margin-right: 1%;
+  
+}
+
+/* scenarios */
+
+.avatar{
+    width: 10%;
+    padding-left: 5%;
+}
+
+.bio{
+    width: 40%;
+    float: right;
+    padding-right: 54%;
 }
