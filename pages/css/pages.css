@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -9,6 +12,7 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+    font-family: 'Roboto Slab';
 }
 
 img {
@@ -18,7 +22,7 @@ img {
 /* Voeg jouw css hieraan toe */
 
 body{
-    background-color: rgba(95, 124, 221, 0.26);   
+    background-color: whitesmoke;   
 }
 
 /* intro */
@@ -69,3 +73,178 @@ body{
     float: right;
     padding-right: 54%;
 }
+
+/* styleguide */ 
+
+.grid {
+  width: 100%;
+  display: table;
+  border-collapse:separate;
+  border-spacing:15px;
+}
+
+.grid-row {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin:0 0 -15px 0;
+}
+
+.item {
+  display: table-cell;
+  padding: 2%;
+}
+
+@media screen and (max-width: 480px) {
+
+ .grid-row {
+    display: block;
+    width: 100%;
+    margin:0;
+ }
+  
+ .item {
+  display: block;
+	width: 100%;
+  margin: 0 0 5px 0;
+ }  
+ 
+}
+
+.nav{
+    width: 365px;
+}
+
+.tickets{
+    padding-bottom: 10%;
+    width: 120px;
+}
+
+.contact{
+    padding-bottom: 10%;
+    width: 120px;
+}
+
+.titel{
+    font-weight: bold;
+    font-size: 24pt;
+
+}
+
+.color1{
+    background-color: #6378ba;
+    color: white;
+    width:60px;
+    height: 60px;
+    font-size: 8pt;
+    padding-right: 20px;
+}
+
+.color2{
+    background-color: #EAEBEC;
+    width:60px;
+    height: 60px;
+    font-size: 8pt;
+    padding-right: 20px;
+}
+
+.color3{
+    background-color: #8F8E8F;
+    color: white;
+    width:60px;
+    height: 60px;
+    font-size: 8pt;
+    padding-right: 20px;
+}
+
+.color4{
+    background-color: #333333;
+    color: white;
+    width:60px;
+    height: 60px;
+    font-size: 8pt;
+    padding-right: 20px;
+}
+
+.color5{
+    background-color:#D6D7D9;
+    width:60px;
+    height: 60px;
+    font-size: 8pt;
+    padding-right: 20px;
+}
+
+.tussentitel{
+    font-weight: bold;
+    font-size: 19pt;
+}
+
+.pic{
+    width: 60px;
+}
+
+.next{
+    float: right;
+    width: 350px; 
+    align-content: center;
+}
+
+.text{
+    font-size: 12pt;
+    padding-top: 0px;
+}
+
+.pic_1{
+    height: 50px;
+   
+}
+
+.no_item{
+    width: 10px;
+}
+
+.big_hover{
+    float: right;
+    width: 400px;
+}
+  
+a:link{
+    color: #000;
+    text-decoration: none;
+    font-weight: thin;
+    font-size: 8px;
+    width: 400px;
+    }
+
+ .pic_2{
+    height: 50px;
+}
+
+.volgend{
+    width: 400px;
+    padding-right: 27px;
+}
+
+.social{
+    width: 400px;
+    padding-right: 40px;
+
+}
+
+.correct{
+    padding-bottom: 5px;
+
+}
+
+.correct2{
+    padding-bottom: 9px;
+
+}
+
+.correct3{
+    padding-bottom: 6px;
+
+}
+
+
+
